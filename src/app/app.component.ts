@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  comments = [
+      'first comment!',
+      'nice work!',
+      'I would also like to congratulate you!'
+  ];
 }
